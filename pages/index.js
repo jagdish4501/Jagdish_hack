@@ -72,6 +72,7 @@ export default function Home({
 }
 
 export async function getStaticProps() {
+  console.log(process.env.baseUrl)
   const featureRes = await fetch(
     `${process.env.baseUrl}/home-page?populate[0]=SocialMediaCount,CardComponent,MeetTheInstructor.InstructorProfilePic,MeetTheInstructor.CompanysWorkedIn.CompanyLogo,SocialLinks.SocialMediaIcon,SEO,SEO.OgMetaImage,SEO.TwitterMetaImage`
   );

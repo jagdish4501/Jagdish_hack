@@ -12,7 +12,7 @@ const withPWA = require('next-pwa')({
 const nextConfig = withPWA({
   reactStrictMode: true,
   env: {
-    baseUrl: 'http://52.66.103.125/api',
+    baseUrl: 'https://easy-gold-gosling-belt.cyclic.app/api',
     MAIL_HOST: 'smtp.gmail.com',
     MAIL_USER: 'thcodehelp@gmail.com',
     MAIL_PASS: 'lkxnumemavvfkmjf',
@@ -22,7 +22,7 @@ const nextConfig = withPWA({
     OST_API_KEY: '2F19C0AD020CF0755505A5B93BD95F09',
   },
   images: {
-    domains: ['codehelp.s3.ap-south-1.amazonaws.com', 'cdn.thecodehelp.in'],
+    domains: ['codehelp.s3.ap-south-1.amazonaws.com', 'cdn.thecodehelp.in', 'dgyugonj9a9mu.cloudfront.net'],
   },
   async headers() {
     return [
