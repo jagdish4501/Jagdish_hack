@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-rubik;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #6674cc;
+  color: #fff;
+}
+
+.section_heading {
+  @apply text-[24px] md:text-[42px] font-bold;
+}
+.section_subheading {
+  @apply text-lg md:text-xl;
+}
+.pre_heading {
+  @apply md:text-xl text-base uppercase md:font-semibold font-bold font-rubik;
+}
+.content_text {
+  @apply md:text-lg text-base;
+}
+.circle_animation {
+  animation: spin 55s linear infinite;
+}
+.circle_animation2 {
+  animation: spin 25s linear reverse infinite;
+}
+.crotate {
+  animation: spin 55s linear reverse infinite;
+}
+.crotate2 {
+  animation: spin 45s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outer_wheel div:nth-child(1) {
+  @apply sm:-top-[28px] sm:left-[160px] -top-7 left-28;
+}
+.outer_wheel div:nth-child(2) {
+  @apply sm:top-[100px] sm:-left-[20px] top-10 -left-2;
+}
+.outer_wheel div:nth-child(3) {
+  @apply sm:top-[270px] sm:left-0 top-44 -left-5;
+}
+.outer_wheel div:nth-child(4) {
+  @apply sm:top-[270px] sm:left-[320px] top-44 left-60;
+}
+.outer_wheel div:nth-child(5) {
+  @apply sm:top-[100px] sm:left-[340px] top-10 left-60;
+}
+.outer_wheel div:nth-child(6) {
+  @apply sm:top-[354px] sm:left-[170px] top-64 left-32;
+}
+
+.inner_cicle div:nth-child(1) {
+  @apply sm:top-[43px] sm:left-[110px] top-5 left-[75px];
+}
+.inner_cicle div:nth-child(2) {
+  @apply sm:top-[120px] sm:left-[35px] top-20 left-3;
+}
+.inner_cicle div:nth-child(3) {
+  @apply sm:top-[120px] sm:left-[190px] top-36 left-20;
+}
+.inner_cicle div:nth-child(4) {
+  @apply sm:top-[195px] sm:left-[110px] top-20 left-[135px];
+}
+
+.markdown-content a {
+  text-decoration: underline;
+  color: #6452fe;
+}
+.makdownMakeup {
+  text-align: justify;
+}
+
+.makdownMakeup p {
+  padding: 15px 0;
+}
+
+.makdownMakeup ol li ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+.makdownMakeup ol {
+  list-style: decimal;
+}
+
+.makdownMakeup h4 {
+  padding-top: 10px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.makdownMakeup a {
+  text-decoration: none;
+}
+
+.makdownMakeup ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+.makdownMakeup ol li ol {
+  list-style: lower-alpha;
+  padding-left: 40px;
+}

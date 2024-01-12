@@ -1,0 +1,48 @@
+{
+  "name": "thecodehelp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write . --config ./.prettierrc.json",
+    "postinstall": "husky install",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.10",
+    "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "next": "12.2.0",
+    "next-pwa": "^5.6.0",
+    "nodemailer": "^6.8.0",
+    "react": "18.2.0",
+    "react-countup": "^6.3.1",
+    "react-dom": "18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.4.0",
+    "react-lottie-player": "^1.5.5",
+    "react-markdown": "^8.0.3",
+    "react-spinners": "^0.13.6",
+    "rehype-highlight": "^6.0.0",
+    "sharp": "^0.31.1",
+    "swiper": "^8.4.2",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.18",
+    "prettier": "2.7.1",
+    "tailwindcss": "^3.2.0"
+  }
+}

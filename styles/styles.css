@@ -1,0 +1,16 @@
+.swiper-pagination-bullets {
+  display: none;
+}
+.swiper-slide {
+  display: grid !important;
+  place-content: center !important;
+}
+.mySwiper {
+  padding: 0 1rem !important;
+  padding-bottom: 4rem !important;
+}
+@media (min-width: 850px) {
+  .mySwiper {
+    padding-bottom: 6rem !important;
+  }
+}

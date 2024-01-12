@@ -1,0 +1,43 @@
+[
+  {
+    "link": "/about",
+    "name": "About Us"
+  },
+  {
+    "link": "/#courses",
+    "name": "Courses"
+  },
+  {
+    "link": "https://labs.thecodehelp.in",
+    "name": "Labs",
+    "target": "_blank",
+    "sublinks": [
+      {
+        "link": "https://labs.thecodehelp.in/fruitbox-flex",
+        "name": "Fruitbox Flex",
+        "description": "A fun and interactive way to sharpen your Flexbox CSS skills.",
+        "target": "_blank",
+        "tags": {
+          "name": "Popular",
+          "textColor": "#581c87",
+          "backgroundColor": "#f5d0fe"
+        }
+      },
+      {
+        "link": "https://labs.thecodehelp.in/quick-compiler",
+        "name": "Quick Compiler",
+        "description": "Write and run code in multiple languages from anywhere.",
+        "target": "_blank",
+        "tags": {
+          "name": "Beta",
+          "textColor": "#854d0e",
+          "backgroundColor": "#fef08a"
+        }
+      }
+    ]
+  },
+  {
+    "link": "/contact",
+    "name": "Contact"
+  }
+]
